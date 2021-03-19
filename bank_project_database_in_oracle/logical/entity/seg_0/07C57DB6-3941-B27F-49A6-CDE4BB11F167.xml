@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07C57DB6-3941-B27F-49A6-CDE4BB11F167" name="RACUN">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:28:07 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RACUNA" id="5889EE02-96D5-12F1-F9DB-57323F977AD3">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:28:18 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_otvaranja" id="89FEAC37-3676-ACD7-C720-23C5CD57435B">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:31:21 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KLIJENT" id="E80AC11B-949C-7D1B-AD85-2BC274836BEF">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:43:39 UTC</createdTime>
+<generatorID>1DD8EB5C-254E-91A4-3550-26D638D2A879</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<referedAttribute>A3043E85-7423-70C2-CD96-C0EA53DB859B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PODRUZNICE" id="139C962E-DE80-3682-8ACC-7A104C4E2289">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:01:57 UTC</createdTime>
+<generatorID>424EADC4-95C5-1EBB-6459-123F65239A29</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<referedAttribute>7B3F9BC9-3F00-9870-064B-93AD1BCCB30A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TEKUCI" id="6C302377-981F-D43E-7588-0A43DA673F03">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:50:11 UTC</createdTime>
+<generatorID>DD4D5C80-811A-7944-B629-75DABFBD5FF7</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<referedAttribute>185A7184-429F-8F20-BC90-51E0EDD3843A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59AB0EB6-FCE5-3F45-001D-01D4D0D62962" name="RACUN PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:28:33 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5889EE02-96D5-12F1-F9DB-57323F977AD3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

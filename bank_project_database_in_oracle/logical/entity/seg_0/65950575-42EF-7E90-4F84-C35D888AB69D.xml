@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65950575-42EF-7E90-4F84-C35D888AB69D" name="TRANSAKCIJA">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:22:46 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TRANSAKCIJE" id="F1DC215B-0D7E-47BF-F743-25593C4D5420">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:23:20 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="832C6F9A-98E8-27D1-8663-02E770888434">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:23:44 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Racun_primatelja" id="3C92E323-AED5-C09E-A068-3AF3908834E9">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:25:07 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Iznos" id="D37E0CA4-DB13-7A56-D33C-BB3970BE12FC">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:26:57 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RACUNA" id="A4A9775B-20C1-8950-1C93-CA800BF01032">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:42:15 UTC</createdTime>
+<generatorID>66D3AD5A-C974-3D30-1F3E-AED2C31AFDEF</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<referedAttribute>5889EE02-96D5-12F1-F9DB-57323F977AD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPA" id="9F80212D-380C-4BE4-2598-F44C932FAA2E">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:54:12 UTC</createdTime>
+<generatorID>2BCF9B51-01AB-57AA-1632-118032D5F3FA</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<referedAttribute>985961A9-BF8A-DC0A-7F0D-2D494650D642</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D71C3EB-7E09-889E-6D7B-5795A4D3D3F1" name="TRANSAKCIJA PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:23:40 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1DC215B-0D7E-47BF-F743-25593C4D5420</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

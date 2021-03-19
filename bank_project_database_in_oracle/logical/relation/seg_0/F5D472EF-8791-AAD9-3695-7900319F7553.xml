@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KLIJ_STEDNA" directorySegmentName="seg_0" id="F5D472EF-8791-AAD9-3695-7900319F7553">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:02:14 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<sourcePk>D0F280B5-A161-FCD8-E05F-920CCB74241E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BF6D76D-3515-5362-8A25-2DC0AA18BCB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D6816BE-04FA-F63E-0708-5EB76852332C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

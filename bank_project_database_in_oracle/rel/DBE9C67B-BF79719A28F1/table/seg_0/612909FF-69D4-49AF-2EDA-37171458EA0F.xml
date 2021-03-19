@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="612909FF-69D4-49AF-2EDA-37171458EA0F" name="ADRESA">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:44 UTC</createdTime>
+<generatorID>84A35F56-03B4-8531-2394-0429865C5541</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADRESE" id="3157231B-92FD-BDB0-E91D-695E5CC11552">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>0B4BCFA7-62AD-06D8-6B63-591EABBA5B80</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ADRESA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ADRESA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime_drzave" id="42E59400-A5D7-C6A1-8A17-2915B5DCF1B7">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>071F8CF8-D49E-E102-4D3D-0E391C4D07C2</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_grada" id="2DB4ADCE-7728-DEFF-39A6-89E80E723418">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>176B63A4-E4B3-6482-D480-5E494F5EFB01</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postanski_broj" id="09DB6A37-DE8C-A781-6FFE-087D57C234C2">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>78EA4F55-8ACC-4653-A5EA-B115443FC71B</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="449A0181-0499-CA3A-049F-5E2B1247CD13">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>35DBEB09-C5B3-8532-3E29-96E758AA28F0</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2A7C4EA-980D-16C1-0B00-2BC578ED89EB" name="Adresa_PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>043BB63B-EC16-DBDF-BF05-10FEBFEFE69F</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3157231B-92FD-BDB0-E91D-695E5CC11552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

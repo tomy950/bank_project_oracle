@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADRESA_PODRUZ" directorySegmentName="seg_0" id="0F20138F-8514-19BC-F5FC-92C23EB1D071">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:13:52 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<sourcePk>043BB63B-EC16-DBDF-BF05-10FEBFEFE69F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>84A35F56-03B4-8531-2394-0429865C5541</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A2DFB86-200B-AF24-5C05-9F3D28F10D74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

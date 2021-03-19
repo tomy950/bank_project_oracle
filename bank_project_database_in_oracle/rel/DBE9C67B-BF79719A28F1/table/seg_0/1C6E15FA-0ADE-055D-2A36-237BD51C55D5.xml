@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6E15FA-0ADE-055D-2A36-237BD51C55D5" name="BANKA">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>C4C8D826-221F-FAA4-A583-6E72DB201ED7</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BANKE" id="C6A09B98-B16C-F380-8BEF-BE8AF974ACA6">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>79B6D217-748D-6282-3956-249970BD7D9D</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>BANKA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>BANKA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="81348689-DA20-84E4-DAFA-B2698CE2570E">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>F9CA6B4E-AB2F-B734-2FD0-E99D2DE75D99</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="63A1B775-C848-1364-1450-F7190CEEFAD2">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>FCC01BDC-7575-6B8A-D43C-24C9D19AABA1</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BB14095-D0BF-BAE3-FC21-B36233A22810" name="BANKA_PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>445FD895-2874-2E3C-0FF7-C7FC2130CE1C</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6A09B98-B16C-F380-8BEF-BE8AF974ACA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RAC_TEK" directorySegmentName="seg_0" id="DD4D5C80-811A-7944-B629-75DABFBD5FF7">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:50:11 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<engineerTo>
+<item key="DBE9C67B-835A-3219-44D2-BF79719A28F1" value="true"/>
+</engineerTo>
+<sourcePk>369CF8B6-0977-A443-6FCC-63A5C96F0F68</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D74B5643-5BA1-35BB-6908-B3337A106D58</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>07C57DB6-3941-B27F-49A6-CDE4BB11F167</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

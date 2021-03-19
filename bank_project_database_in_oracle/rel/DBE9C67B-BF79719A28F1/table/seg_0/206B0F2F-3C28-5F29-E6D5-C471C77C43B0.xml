@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="206B0F2F-3C28-5F29-E6D5-C471C77C43B0" name="PODRUZNICA">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>9A2DFB86-200B-AF24-5C05-9F3D28F10D74</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PODRUZNICE" id="3AD8531C-23F5-51A9-A8B3-7D8883399B01">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>7B3F9BC9-3F00-9870-064B-93AD1BCCB30A</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PODRUZNICA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PODRUZNICA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Tip_podruznice" id="06EB5D84-2A1D-7487-7326-CA3EFA10A97C">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>503B1E99-5A85-FC95-C190-2DD50B138B4D</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Br_telefona" id="A72D636C-B6E9-3A59-6C7A-5EA21780A6C5">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>D31018A0-AAB3-B8D6-4593-476A41735939</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANKA_ID_BANKE" id="8E8C9091-F38E-012B-58A5-35E97F3D9C98">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>4BCF43CE-368C-F311-233A-8E1A92622E4A</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BCD6B6B-1FDD-4D05-5069-C08F9FAF5FCF" referredColumn="C6A09B98-B16C-F380-8BEF-BE8AF974ACA6"/>
+</associations>
+</Column>
+<Column name="Adresa_ID_ADRESE" id="CEAFAFC6-B7B7-7C99-CB11-B0136F6D4203">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>4C1B8185-E296-0CBB-D0B8-97BDE544A587</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detalji" id="3606A32E-A659-7C3C-0DC5-957B42B4AF1D">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:26 UTC</createdTime>
+<generatorID>BD95F0D9-0C9F-AAD3-264C-3D5354D0575D</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_ID_ADRESE1" id="B3F396B5-CAAF-0A8E-07BD-F2C00CD9CCFD">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:26 UTC</createdTime>
+<generatorID>F59280FF-2213-6060-0C34-207E65B51394</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9879C6EF-4605-A972-D6F2-6214FF2E936C" referredColumn="3157231B-92FD-BDB0-E91D-695E5CC11552"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9E26015-F313-C173-C610-B277D67A966C" name="PODRUZNICA_PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>80187813-A8F4-003D-B7C6-D04A5A1E6591</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AD8531C-23F5-51A9-A8B3-7D8883399B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B83A535-D950-E992-EF2D-A6C4B1CB4724" name="PODRUZNICA__IDX">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0F20138F-8514-19BC-F5FC-92C23EB1D071</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3F396B5-CAAF-0A8E-07BD-F2C00CD9CCFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E179772-C33D-56C6-27CB-7D3C123AE849" name="PODRUZNICA_BANKA_FK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>2455C2D1-2F50-F3AF-4F28-3292629CF7D1</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E8C9091-F38E-012B-58A5-35E97F3D9C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BD10096-A928-D2D9-E746-644E656DCBC4" name="PODRUZNICA_Adresa_FKv1">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>0F20138F-8514-19BC-F5FC-92C23EB1D071</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3F396B5-CAAF-0A8E-07BD-F2C00CD9CCFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

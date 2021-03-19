@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B7F56F0-2DE2-DA7D-0087-D832B66C5570" name="ZIRO_RACUN">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>2B5F5792-BD1C-E5E4-50FC-C30D7A21499B</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZIRO" id="B794009D-5686-FC8C-77D0-D4000066F301">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>FD39BD78-D83D-659A-2DF3-52E4BFE10154</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZIRO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZIRO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="RACUN_ID_RACUNA" id="98BBE99E-D61F-B4ED-7553-809AF3C18DE4">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>F4426FC6-C5A9-61F4-3033-BF2CD3BC1761</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E7C98B6-42B4-F998-527B-0E97672C30C5" referredColumn="48A7DC2C-B551-8CCD-0A8D-3D4A33E94F1A"/>
+</associations>
+</Column>
+<Column name="Valuta" id="5C220989-23FD-1B16-2840-3EB893091333">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>042312A6-B589-06CA-3C1F-A0794FD82425</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Racuna" id="A0FBF0A7-DE2D-C53F-6FAE-111BC6D317BF">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>C9A718B3-27F7-8CF0-EFE1-3554C79111C8</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Isplata" id="7D551DFC-C843-8072-D7DD-A5D64BE3ECA3">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>2D8C1620-AB4B-E814-7EBF-7EB080B0FBB0</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos_racuna" id="310A9B66-DCA8-CFB1-565F-D4C45CEEDDE8">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>A4DE85B0-909D-F223-B2EB-824CC2BEEA02</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3EE730F-07DA-F3E9-3AEA-77F9A44D9ACA" name="ZIRO_RACUN_PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>5245651E-C109-FC06-4BBD-3A892F0952A6</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B794009D-5686-FC8C-77D0-D4000066F301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A520DFFF-24BF-D80D-785B-A3AD843217E0" name="ZIRO_RACUN__IDX">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8F8D6139-4495-2E44-EE84-941148367C5E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="98BBE99E-D61F-B4ED-7553-809AF3C18DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9615AF94-AB7E-5D26-F2DE-33ACECA60A8D" name="ZIRO_RACUN_RACUN_FK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>8F8D6139-4495-2E44-EE84-941148367C5E</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98BBE99E-D61F-B4ED-7553-809AF3C18DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

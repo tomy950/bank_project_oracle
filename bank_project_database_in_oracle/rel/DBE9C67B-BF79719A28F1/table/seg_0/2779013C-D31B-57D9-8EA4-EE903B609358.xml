@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2779013C-D31B-57D9-8EA4-EE903B609358" name="RACUN">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>07C57DB6-3941-B27F-49A6-CDE4BB11F167</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RACUNA" id="48A7DC2C-B551-8CCD-0A8D-3D4A33E94F1A">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>5889EE02-96D5-12F1-F9DB-57323F977AD3</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RACUN_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>RACUN_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Datum_otvaranja" id="73D2D613-7CFD-04FA-476F-417CB8F14728">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>89FEAC37-3676-ACD7-C720-23C5CD57435B</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_RACUNA_ID_TIPA" id="13CEEDCF-F851-492E-6FCA-1EF7BF5D52EB">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>99D23192-FF45-CFAE-E8C7-719A1593CD9C</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIJENT_ID_KLIJENT" id="C351B768-B7C3-476B-4E02-8DA18C85998F">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>E80AC11B-949C-7D1B-AD85-2BC274836BEF</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D7DE0E0-CDD3-C101-EA4B-BC676D4EA9E8" referredColumn="1984C7DE-B882-A0D7-67AB-21A794FC0A6A"/>
+</associations>
+</Column>
+<Column name="PODRUZNICA_ID_PODRUZNICE" id="CB09F2C4-1DA7-0427-4FCA-ADB354A103D2">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:26 UTC</createdTime>
+<generatorID>139C962E-DE80-3682-8ACC-7A104C4E2289</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA366B3D-5A41-5265-9509-D9A14598CF07" referredColumn="3AD8531C-23F5-51A9-A8B3-7D8883399B01"/>
+</associations>
+</Column>
+<Column name="TEKUCI_RACUN_ID_TEKUCI" id="8A73D0D2-9281-DB8D-1DC4-13165DFA8DA6">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:26 UTC</createdTime>
+<generatorID>6C302377-981F-D43E-7588-0A43DA673F03</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA83C1BB-C6F8-3546-1D0F-6996E87CB930" referredColumn="170AC1C1-CB38-21B1-DCB3-3BAD2D9D1537"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="458C6C77-A9AD-C0ED-73E3-0A7D01C7D439" name="RACUN_PK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>59AB0EB6-FCE5-3F45-001D-01D4D0D62962</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48A7DC2C-B551-8CCD-0A8D-3D4A33E94F1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08A8AE46-0EEE-2A69-F2D8-72720AF882B3" name="RACUN__IDX">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DD4D5C80-811A-7944-B629-75DABFBD5FF7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8A73D0D2-9281-DB8D-1DC4-13165DFA8DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A4F525B-04F4-F08A-CBD6-B6B4A324D03D" name="RACUN_KLIJENT_FK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-06 18:49:45 UTC</createdTime>
+<generatorID>1DD8EB5C-254E-91A4-3550-26D638D2A879</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C351B768-B7C3-476B-4E02-8DA18C85998F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B91BD861-8019-E914-F546-2A6294F1CEB4" name="RACUN_PODRUZNICA_FK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>424EADC4-95C5-1EBB-6459-123F65239A29</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB09F2C4-1DA7-0427-4FCA-ADB354A103D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="423E05B4-4FD4-0B29-504A-FC974BDAE5D7" name="RACUN_TEKUCI_RACUN_FK">
+<createdBy>korisnik</createdBy>
+<createdTime>2017-05-07 14:55:27 UTC</createdTime>
+<generatorID>DD4D5C80-811A-7944-B629-75DABFBD5FF7</generatorID>
+<ownerDesignName>FIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A73D0D2-9281-DB8D-1DC4-13165DFA8DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
